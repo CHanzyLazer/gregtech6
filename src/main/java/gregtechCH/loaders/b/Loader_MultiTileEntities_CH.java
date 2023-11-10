@@ -316,27 +316,27 @@ public class Loader_MultiTileEntities_CH extends Loader_MultiTileEntities  {
         aRegistry.addReplacer(10003).setParameters(NBT_INPUT ,  512, NBT_EFFICIENCY_NUM,10000).removeParameters(NBT_OUTPUT);
         aRegistry.addReplacer(10004).setParameters(NBT_INPUT , 2048, NBT_EFFICIENCY_NUM,10000).removeParameters(NBT_OUTPUT);
         aRegistry.addReplacer(10005).setParameters(NBT_INPUT , 8192, NBT_EFFICIENCY_NUM,10000).removeParameters(NBT_OUTPUT);
-        // Engines 电动引擎效率改为 90%
-        aRegistry.addReplacer(10010).setParameters(NBT_INPUT ,    8, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10011).setParameters(NBT_INPUT ,   32, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10012).setParameters(NBT_INPUT ,  128, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10013).setParameters(NBT_INPUT ,  512, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10014).setParameters(NBT_INPUT , 2048, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10015).setParameters(NBT_INPUT , 8192, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        // Motors 电动机效率改为 90%
-        aRegistry.addReplacer(10020).setParameters(NBT_INPUT ,    8, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10021).setParameters(NBT_INPUT ,   32, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10022).setParameters(NBT_INPUT ,  128, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10023).setParameters(NBT_INPUT ,  512, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10024).setParameters(NBT_INPUT , 2048, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10025).setParameters(NBT_INPUT , 8192, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        // Lasers 镭射器效率改为 90%
-        aRegistry.addReplacer(10100).setParameters(NBT_INPUT ,    8, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10101).setParameters(NBT_INPUT ,   32, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10102).setParameters(NBT_INPUT ,  128, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10103).setParameters(NBT_INPUT ,  512, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10104).setParameters(NBT_INPUT , 2048, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
-        aRegistry.addReplacer(10105).setParameters(NBT_INPUT , 8192, NBT_EFFICIENCY_NUM, 9000).removeParameters(NBT_OUTPUT);
+        // Engines 电动引擎效率改为 87.5%
+        aRegistry.addReplacer(10010).setParameters(NBT_INPUT ,    8, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10011).setParameters(NBT_INPUT ,   32, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10012).setParameters(NBT_INPUT ,  128, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10013).setParameters(NBT_INPUT ,  512, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10014).setParameters(NBT_INPUT , 2048, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10015).setParameters(NBT_INPUT , 8192, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        // Motors 电动机效率改为 87.5%
+        aRegistry.addReplacer(10020).setParameters(NBT_INPUT ,    8, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10021).setParameters(NBT_INPUT ,   32, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10022).setParameters(NBT_INPUT ,  128, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10023).setParameters(NBT_INPUT ,  512, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10024).setParameters(NBT_INPUT , 2048, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10025).setParameters(NBT_INPUT , 8192, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        // Lasers 镭射器效率改为 87.5%
+        aRegistry.addReplacer(10100).setParameters(NBT_INPUT ,    8, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10101).setParameters(NBT_INPUT ,   32, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10102).setParameters(NBT_INPUT ,  128, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10103).setParameters(NBT_INPUT ,  512, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10104).setParameters(NBT_INPUT , 2048, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
+        aRegistry.addReplacer(10105).setParameters(NBT_INPUT , 8192, NBT_EFFICIENCY_NUM, 8750).removeParameters(NBT_OUTPUT);
         // Dynamos 小发电机效率改为 60%
         aRegistry.addReplacer(10110).setParameters(NBT_OUTPUT,    8, NBT_EFFICIENCY_NUM, 6000).removeParameters(NBT_INPUT);
         aRegistry.addReplacer(10111).setParameters(NBT_OUTPUT,   32, NBT_EFFICIENCY_NUM, 6000).removeParameters(NBT_INPUT);
@@ -1031,8 +1031,8 @@ public class Loader_MultiTileEntities_CH extends Loader_MultiTileEntities  {
         // Turbines 各长度的参数，增加预热相关
         aRegistry.addReplacer(17215).setParameters(NBT_EFFICIENCY_WATER, 9500, NBT_EFFICIENCY_OC, 5000, NBT_LENGTH_MIN, 1, NBT_LENGTH_MAX, 10, NBT_LENGTH_MID, 4).removeParameters(NBT_OUTPUT, NBT_EFFICIENCY, NBT_INPUT, NBT_WASTE_ENERGY).setParameterArray(NBT_OUTPUT, 10922,20480, 27454, 32768, 36951, 40329, 43115, 45452, 47440, 49152).setParameterArray(NBT_EFFICIENCY, 3250,5000,6000,6500,7000,7250,7333,7500,7666,7750).setParameterArray(NBT_PREHEAT_ENERGY, 196608000, 393216000,  589824000,  786432000,  983040000, 1179648000, 1376256000, 1572864000, 1769472000, 1966080000).setParameterArray(NBT_PREHEAT_COST,  86,171, 256, 342, 427, 512, 598, 683, 768, 854).setParameterArray(NBT_COOLDOWN_RATE,  8192,16384,24576, 32768, 40960, 49152, 57344, 65536, 73728, 81920); // Titanium Niobium Carbide
         aRegistry.addReplacer(17235).setParameters(NBT_LENGTH_MIN, 3, NBT_LENGTH_MAX, 12, NBT_LENGTH_MID, 6).removeParameters(NBT_OUTPUT, NBT_EFFICIENCY, NBT_INPUT, NBT_WASTE_ENERGY, NBT_LIMIT_CONSUMPTION, NBT_ENERGY_ACCEPTED).setParameterArray(NBT_OUTPUT, 10922,20480, 27454, 32768, 36951, 40329, 43115, 45452, 47440, 49152).setParameterArray(NBT_EFFICIENCY, 3250,5000,6000,6500,7000,7250,7333,7500,7666,7750).setParameterArray(NBT_PREHEAT_ENERGY, 196608000, 393216000,  589824000,  786432000,  983040000, 1179648000, 1376256000, 1572864000, 1769472000, 1966080000).setParameterArray(NBT_PREHEAT_RATE, 10922,20480, 27454, 32768, 36951, 40329, 43115, 45452, 47440, 49152).setParameterArray(NBT_PREHEAT_COST,  86,171, 256, 342, 427, 512, 598, 683, 768, 854).setParameterArray(NBT_COOLDOWN_RATE,  8192,16384,24576, 32768, 40960, 49152, 57344, 65536, 73728, 81920).recipe("PwP", "BMC", "PEP", 'M', aRegistry.getItem(17215), 'B', "gt:re-battery4", 'C', IL.Processor_Crystal_Diamond, 'E', IL.MOTORS[4], 'P', OP.plateDense.dat(MT.Ta4HfC5));       // Titanium Niobium Carbide
-        // Dynamo 大型发电机效率调整为 95%
-        aRegistry.addReplacer(17225).setParameters(NBT_OUTPUT,  32768, NBT_EFFICIENCY_NUM, 9500).removeParameters(NBT_INPUT);
+        // Dynamo 大型发电机效率调整为 93.75%
+        aRegistry.addReplacer(17225).setParameters(NBT_OUTPUT,  32768, NBT_EFFICIENCY_NUM, 9375).removeParameters(NBT_INPUT);
         
         
         /// 添加项
